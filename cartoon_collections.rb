@@ -17,7 +17,7 @@ def find_the_cheese(ingredients)# code an argument here
   ingredients.map do |i|
     if cheese_types.include?("#{i}")
      "#{i}"
-    #break
+    break
   else return "broken?"
   end
 end
