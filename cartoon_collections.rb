@@ -18,7 +18,7 @@ def find_the_cheese(ingredients)# code an argument here
     if cheese_types.include?("#{i}")
       return "#{i}"
     else
-      return nil
+      nil
     end
 end
 end
